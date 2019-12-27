@@ -29,10 +29,10 @@ namespace app
         {
             // services.AddControllers();
             services.AddGraphQL(services =>
-                                            SchemaBuilder.New()
-                                            .AddServices(services)
-                                            .AddQueryType<Query>()
-                                            .Create());
+                                    SchemaBuilder.New()
+                                    .AddServices(services)
+                                    .AddQueryType<Query>()
+                                    .Create());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

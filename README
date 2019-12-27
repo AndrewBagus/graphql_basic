@@ -1,0 +1,13 @@
+Step_1-basic_setting
+
+Basic Setting for graphql in asp.netcore using hotchocolate server
+
+there are three important dependencies :
+1. HotChocolate
+2. HotChocolate.AspNetCore
+3. HotChocolate.AspNetCore.Playground
+
+In Startup.cs :
+1. ConfigureServices: - SchemaBuilder
+2. Configure : - app.UseGraphql
+               - app.UsePlayground 
